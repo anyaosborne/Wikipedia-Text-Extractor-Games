@@ -1,4 +1,4 @@
-# Wikipedia-Text-Extractor
+# Wikipedia-Text-Extractor-Game-Titles
 Provide a list of wikipedia webpage game titles and get a directory of text files containing requested page contents
 
 Library Used:
