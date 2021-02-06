@@ -1,13 +1,16 @@
-# Wikipedia-Text-Extractor-Game-Titles
-Provide a list of wikipedia webpage game titles and get a directory of text files containing requested page contents
+# Wikipedia Text Extractor for Game Titles
+This project is a modified version of [AnKushRR/Wikipedia-Text-Extractor](https://github.com/AnkushRR/Wikipedia-Text-Extractor).
+It extracts plan text from Wikipedia about 110 game titles given in the [pageTitleList.txt](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/blob/main/pageTitleList.txt) file. The [output](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/tree/main/output) contains extracted page content for each game title. The [GameDescriptions.txt] includes extracted content all in one document, which is good for using it for machine learning training.
 
-Library Used:
-https://pypi.org/project/wikipedia/
+## Requirements
+* Python3+
+* [Wikipedia pip3 library](https://pypi.org/project/wikipedia/)
 
-Requirements: Python3, wikipedia pip3 library
+## How to Execute The Code
+* Download the repository
+* You may edit the [pageTitleList.txt](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/blob/main/pageTitleList.txt) with your custom Wikepedia page titles. Make sure that the page title is the as in the respective Wikipedia URL link.
+* Run [getWikiPages.py](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/blob/main/getWikiPages.py)
 
-Edit "pageTitleList.txt" and add the requested page titles line by line
-
-Run as "python3 getWikiPages.py" 
-
-A new directory will be created by the name "output" and it will have the requested output data
+## Output
+* A new file will be created in the main directory called *AllGameDescriptions*
+* A new directory will be created named [output](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/tree/main/output)
