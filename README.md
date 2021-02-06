@@ -1,6 +1,6 @@
 # Wikipedia Text Extractor for Game Titles
 This project is a modified version of [AnKushRR/Wikipedia-Text-Extractor](https://github.com/AnkushRR/Wikipedia-Text-Extractor).
-It extracts plan text from Wikipedia about 110 game titles given in the [pageTitleList.txt](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/blob/main/pageTitleList.txt) file. The [output](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/tree/main/output) contains extracted page content for each game title. The [GameDescriptions.txt] includes extracted content all in one document, which is good for using it for machine learning training.
+It extracts plan text from Wikipedia about 110 game titles given in the [pageTitleList.txt](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/blob/main/pageTitleList.txt) file. The [output](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/tree/main/output) contains extracted page content for each game title. The [AllGameDescriptions.txt](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/blob/main/AllGameDescriptions.txt) includes extracted content all in one document, which is good for using it for machine learning training.
 
 ## Requirements
 * Python3+
@@ -13,4 +13,4 @@ It extracts plan text from Wikipedia about 110 game titles given in the [pageTit
 
 ## Output
 * A new file will be created in the main directory called *AllGameDescriptions*
-* A new directory will be created named [output](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/tree/main/output
+* A new directory will be created named *Output*
