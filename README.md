@@ -4,7 +4,7 @@ It extracts plan text from Wikipedia about 110 game titles given in the [pageTit
 
 ## Requirements
 * Python3+
-* [Wikipedia pip3 library](https://pypi.org/project/wikipedia/)
+* You will need to download [Wikipedia pip3 library](https://pypi.org/project/wikipedia/)
 
 ## How to Execute The Code
 * Download the repository
@@ -13,4 +13,4 @@ It extracts plan text from Wikipedia about 110 game titles given in the [pageTit
 
 ## Output
 * A new file will be created in the main directory called *AllGameDescriptions*
-* A new directory will be created named [output](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/tree/main/output)
+* A new directory will be created named [output](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/tree/main/output
