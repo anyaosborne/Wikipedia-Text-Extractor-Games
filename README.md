@@ -9,7 +9,8 @@ The [*getWikiPages.py*](https://github.com/anyaosborne/Wikipedia-Text-Extractor-
 ## How to Execute The Code
 * Download the repository
 * You may edit the [*pageTitleList.txt*](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/blob/main/pageTitleList.txt) with your custom Wikepedia page titles. Make sure that the page title is the as in the respective Wikipedia URL link.
-* Run [*getWikiPages.py*](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/blob/main/getWikiPages.py)
+* Run [*getWikiPages.py*](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/blob/main/getWikiPages.py) to extract all text.
+* Run [*getWikiGamePlayDescription.py*](https://github.com/anyaosborne/Wikipedia-Text-Extractor-Games/blob/main/getWikiGamePlayDescription.py) to extract the gameplay content only.
 
 ## Output
 * A new file will be created in the main directory called *AllGameDescriptions*
